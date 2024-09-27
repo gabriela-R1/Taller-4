@@ -35,7 +35,7 @@ section {
     margin-bottom: 20px;
     padding: 20px;
     border: 1px solid #ccc;
-    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    box-sizing: border-box; 
 }
 
 img {
