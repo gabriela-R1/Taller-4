@@ -1,0 +1,51 @@
+header {
+    background-color: #b09700;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #808080;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #b09700;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
